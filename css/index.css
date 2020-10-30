@@ -7,7 +7,6 @@
     text-align: center;
 }
 .container {
-    /* width: 100%; */
     height: 100%;
     min-width: 1440px;
     position: relative;
@@ -16,7 +15,6 @@
 
 header {
     position: relative;
-    /* width: 100%; */
     min-width: 1440px;
     min-height: 530px;
     width: 100%;
@@ -38,28 +36,18 @@ header {
     background-image: url("../images/deve-bgc.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    /*zoom: 1;*/
-    /*background-size: cover;*/
-    /*-webkit-background-size: cover;*/
-    /*-o-background-size: cover;*/
     background-position: center center;
 }
 .dev-bgc:hover{
     cursor: pointer;
-     /* -webkit-transform:translateX(-10px);
-    transform: translateX(-10px); */
-    /* background-color: #fff; */
     transition: all 0.6s;
     -moz-transition: all 0.6s; /* Firefox 4 */
     -webkit-transition: all 0.6s; /* Safari 和 Chrome */
     -o-transition: all 0.6s; /* Opera */
      transform: scale(1.04);  
-     /* width: 300px;
-    height: 210px; */
      z-index: 10;
 }
 .dev-bgc:hover > div {
-    /* top: -60px; */
     -webkit-transform:translateY(-15px);
     transform: translateY(-15px);
     -moz-transition: all 0.6s; /* Firefox 4 */
@@ -284,4 +272,57 @@ background: #F8F8F8;
     -webkit-transition: all 0.6s linear; /* Safari 和 Chrome */
     -o-transition: all 0.6s linear; /* Opera */
     transition: all 0.6s linear;
+}
+.circle-left{
+    position: absolute;
+    left: 0;
+    top: 58%;
+}
+.circle-right {
+   position: absolute;
+    right: 0;
+    top: 72%;
+}
+.team-text-box{
+    width: 100%;
+    padding-bottom: 78px;
+    padding-left: 37.11%;
+    padding-right: 28.61%;
+}
+.flex-align-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.team-sec-text-box{
+    font-size: 0;
+    margin-left:54px;
+    vertical-align: top;
+}
+.team-img-text{
+    margin-right:  20px;
+    position: relative;
+}
+.service-text-box{
+    width: 100%;
+     text-align: center;
+     padding-bottom: 60px;
+}
+.flex-center{
+    display: flex;
+    align-items: center;
+}
+.fx-text{
+    display: inline-block;
+    vertical-align: text-top;
+    padding-left:8px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+}
+.ba-text{
+    padding-top: 21px;
+font-size: 12px;
+font-weight: 400;
+color: #333333;
 }
