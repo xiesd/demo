@@ -46,20 +46,22 @@ header {
 }
 .dev-bgc:hover{
     cursor: pointer;
-     -webkit-transform:translateX(-40px);
-    transform: translateX(-40px);
+     /* -webkit-transform:translateX(-10px);
+    transform: translateX(-10px); */
     /* background-color: #fff; */
     transition: all 0.6s linear;
     -moz-transition: all 0.6s linear; /* Firefox 4 */
     -webkit-transition: all 0.6s linear; /* Safari 和 Chrome */
     -o-transition: all 0.6s linear; /* Opera */
-     transform: scale(1.1);  
+     /* transform: scale(1.1);   */
+     width: 300px;
+    height: 210px;
      z-index: 10;
 }
 .dev-bgc:hover > div {
     /* top: -60px; */
-    -webkit-transform:translateY(-40px);
-    transform: translateY(-40px);
+    -webkit-transform:translateY(-15px);
+    transform: translateY(-15px);
     -moz-transition: all 0.6s linear; /* Firefox 4 */
     -webkit-transition: all 0.6s linear; /* Safari 和 Chrome */
     -o-transition: all 0.6s linear; /* Opera */
